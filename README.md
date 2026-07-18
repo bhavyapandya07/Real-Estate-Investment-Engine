@@ -1,75 +1,116 @@
-# React + TypeScript + Vite
+# 🏙️ UrbaNext - AI-Powered Urban Land Investment Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Overview
+UrbaNext is an interactive, AI-driven map application designed to evaluate the investment viability of urban land plots. Currently focused on the Kalyan-Dombivli urban corridor, the system replaces subjective real estate pricing models with deterministic mathematical spatial decay algorithms.
 
-Currently, two official plugins are available:
+Users can click anywhere on the map to instantly calculate the exact road-network distance to 13 different types of crucial infrastructure (hospitals, highways, schools, etc.). The system calculates a dynamic "Investment Score" (0-100) and draws the exact driving routes on the map using real road networks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+- **True Roadway Routing**: Integrates with the Open Source Routing Machine (OSRM) to calculate true shortest-path road network distances via Dijkstra's Algorithm, bypassing misleading straight-line (Haversine) calculations.
+- **Exponential Spatial Scoring**: Calculates infrastructure value using a non-linear exponential distance decay function.
+- **Procedural Insights (XAI)**: Generates human-readable "Pros" and "Cons" based on a deterministic logic tree to explain the generated score.
+- **Zero-Cost Architecture**: Built entirely on open-source technologies and free-tier APIs (OSM, OSRM).
+- **Future-Ready (RAG)**: Backend is structured to support a local FAISS + HuggingFace Retrieval-Augmented Generation pipeline to query municipal zoning policies offline.
 
-## React Compiler
+## 🧮 The Scoring Math (Exponential Decay)
+A simple linear score deduction is highly inaccurate for urban planning. To replicate real-world utility, the backend uses an **Exponential Decay Function**:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+$$Score = \sum (W \times e^{-k \times distance})$$
 
-## Expanding the ESLint configuration
+- **$W$ (Weight)**: The maximum possible score for that category (e.g., Highway = 25, Park = 10).
+- **$k$ (Decay Constant)**: How fast the value drops. A high $k$ means the amenity must be very close to be useful.
+- **$distance$**: The spatial distance calculated by the engine (in meters).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Note:** A steep exponential penalty is applied if a plot is within 150 meters of a water vector to account for flood risk.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Technology Stack
+**Frontend (Client):**
+- React.js (TypeScript, Vite)
+- Leaflet.js (Mapping Engine)
+- TailwindCSS (Glassmorphic UI)
+- Recharts (Data Visualization)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Backend (Spatial Analytics API):**
+- FastAPI (Uvicorn ASGI)
+- GeoPandas & Shapely (Spatial indexing and geometry)
+- OSRM API (Dijkstra's routing)
+- FAISS & Sentence-Transformers (RAG Policy Querying)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📂 Detailed Project Structure and File Explanations
 
+The project is structured into a highly decoupled architecture with separate frontend and backend directories.
+
+### `/backend` (FastAPI Engine)
+The core AI and mathematics engine of UrbaNext. It processes spatial logic and natural language queries.
+- **`main.py`**: The API Gateway and route controller. It sets up FastAPI, handles CORS, mounts the static data folder, and defines the REST endpoints (`/api/calculate-score` and `/api/query-policy`).
+- **`spatial_engine.py`**: Contains the core logic for calculating the Investment Score. It loads GeoJSON layers into memory, finds the nearest infrastructure to a clicked point using `shapely` and `geopandas`, and applies the exponential decay algorithm.
+- **`rag_engine.py`**: Handles the RAG (Retrieval-Augmented Generation) pipeline. It loads a local `all-MiniLM-L6-v2` embedding model and a FAISS index to answer queries about zoning policies based on loaded metadata.
+- **`rag_indexer.py`**: A utility script responsible for parsing municipal PDFs and building the FAISS index and metadata.
+- **`policy_faiss.index` & `policy_metadata.pkl`**: The pre-built local vector database and corresponding text chunks for querying municipal policy documents.
+- **`requirements.txt`**: Python dependencies required to run the backend (FastAPI, uvicorn, geopandas, faiss-cpu, sentence-transformers, etc.).
+- **`/data`**: Contains all the `.geojson` vector files (13 categories like hospitals, schools, highways) representing spatial infrastructure. These are loaded into memory and statically served.
+- **`/documents`**: Contains unstructured PDF files like the local municipal masterplans (`kdmc_masterplan.pdf`) used for the policy RAG pipeline.
+
+### `/frontend` (React UI)
+The visual interface for the user, rendering maps, UI, and data visualizations.
+- **`src/App.tsx`**: The main interface logic. It integrates Leaflet for the interactive map, listens for user clicks, communicates with the backend API, and integrates OSRM to render real roadway driving routes.
+- **`src/index.css` & `src/App.css`**: TailwindCSS and custom styling logic for the application's glassmorphic UI and animations.
+- **`src/main.tsx`**: The entry point for the React application.
+- **`package.json` & `package-lock.json`**: Node.js dependencies and script definitions.
+- **`vite.config.ts`**: The Vite configuration for the development server and build pipeline.
+- **`tsconfig.*.json`**: TypeScript configurations for rigorous type checking across the frontend.
+- **`/public` & `/src/assets`**: Static assets like icons and images used in the frontend.
+
+## 🚀 Getting Started (Local Setup)
+
+To run the full stack on a local machine, you will need to start both the backend and frontend servers simultaneously in two separate terminals.
+
+### Prerequisites
+- Node.js (v18+)
+- Python (3.9+)
+
+### Terminal 1: The AI/Math Backend
+```bash
+# Navigate to the backend directory
+cd backend
+
+# Activate your virtual environment (Windows)
+.\venv\Scripts\activate
+# For Mac/Linux: source venv/bin/activate
+
+# Install dependencies (first time only)
+pip install -r requirements.txt
+
+# Start the FastAPI server
+uvicorn main:app --reload --port 8000
 ```
+Wait for the console to display: `INFO: Application startup complete.`
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Terminal 2: The React Frontend
+```bash
+# Navigate to the frontend directory
+cd frontend
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Install dependencies (first time only)
+npm install
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+# Start the Vite development server
+npm run dev
 ```
+Access the application in your browser at `http://localhost:5173/`
+
+## 🔌 API Documentation
+The system is highly decoupled, communicating via REST APIs served from `localhost:8000`.
+
+- **`POST /api/calculate-score`**: Accepts `{"lat": float, "lng": float}`. Returns the 0-100 investment score, distances in meters, and nearest infrastructure coordinates.
+- **`POST /api/query-policy`**: Accepts `{"question": "..."}`. Returns relevant retrieved clauses from the municipal policy index.
+- **`GET /data/{layer}.geojson`**: Serves static GeoJSON vector layers directly to the React frontend for Leaflet rendering.
+
+## 🔮 Future Scope (Phase 2)
+The next phase introduces a fully offline RAG pipeline for municipal policy intelligence:
+- **Ingestion**: Parse local municipal PDFs (e.g., `kdmc_masterplan.pdf`).
+- **Vectorization**: Embed text chunks using local HuggingFace `sentence-transformers`.
+- **Storage**: Index vectors locally using FAISS.
+- **Interface**: Enable users to ask zoning questions (e.g., "Can I build commercial property here?") cross-referenced against their exact clicked location.
+
+> Developed as an AI-Augmented Spatial Analytics Research Project.
