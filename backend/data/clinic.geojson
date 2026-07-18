@@ -1,0 +1,371 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:33:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7045917547",
+        "addr:district": "Thane",
+        "addr:full": "Ground Floor, Kmc Building, Padmakar Colony, Thakurli(E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Gurukalash Polyclinc and Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0906932,
+          19.2116008
+        ]
+      },
+      "id": "node/7045917547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7048121077",
+        "addr:district": "Thane",
+        "addr:full": "A-106 Kasturi Plaza,Manpada Road Dombivli(E) Mumbai",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Chheda's Eye Clinic",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0900696,
+          19.215445
+        ]
+      },
+      "id": "node/7048121077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7049446130",
+        "addr:district": "Thane",
+        "addr:full": "Bali Bazar, Kalyan(W)",
+        "addr:postcode": "400601",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Nityan and Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1249222,
+          19.2380282
+        ]
+      },
+      "id": "node/7049446130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7049536590",
+        "addr:district": "Thane",
+        "addr:full": "Amoghsidha Bullding, Retlbunder Road, Near Rokhade Bldg. Dombivli (W)",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Nathkrupa Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0811251,
+          19.2267844
+        ]
+      },
+      "id": "node/7049536590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051628593",
+        "addr:district": "Thane",
+        "addr:full": "Rameshwari Appartment Dr Rajendra Prasad Road, Tilak Nagar Dombivli - East Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Amrut Hospital and Endoscopic Clinic",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0922764,
+          19.2147953
+        ]
+      },
+      "id": "node/7051628593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051729433",
+        "addr:district": "Thane",
+        "addr:full": "Klassik Apartments Opp Santoshi Mata Mandir, Kopar Road, Dombivli - West Dombivli",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Apurva Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0802125,
+          19.215053
+        ]
+      },
+      "id": "node/7051729433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051806978",
+        "addr:district": "Thane",
+        "addr:full": "Ganesh Tower, Opposite Agra Road, Petrol Pump, Agra Road",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Sushrut Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1266549,
+          19.2462691
+        ]
+      },
+      "id": "node/7051806978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7055363364",
+        "addr:district": "Thane",
+        "addr:full": "Ground Floor,Prashant Chs Ltd Agarkar Road,Off Phadke Road Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Asmita Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0905692,
+          19.2186141
+        ]
+      },
+      "id": "node/7055363364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064893800",
+        "addr:district": "Thane",
+        "addr:full": "S2/Mayur Chs Ltd, Subhash Road , Chincholi Pada, Dombiivli (W)",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Dhanvantari Clinic",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0875644,
+          19.2289555
+        ]
+      },
+      "id": "node/7064893800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7073537780",
+        "addr:district": "Thane",
+        "addr:full": "Pancharishi Gograswadi Gate , Sant Namdev Path , Dombivli ( East )",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Samarth Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0970681,
+          19.2131901
+        ]
+      },
+      "id": "node/7073537780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7076620099",
+        "addr:district": "Thane",
+        "addr:full": "Kalyan",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Sai Prasad Nursing Home and Scu",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1274569,
+          19.2452233
+        ]
+      },
+      "id": "node/7076620099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7079665764",
+        "addr:district": "Thane",
+        "addr:full": "Jay Jay Shriram, Rajaji Path, Ramnagar,Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Shriram Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0850431,
+          19.2158141
+        ]
+      },
+      "id": "node/7079665764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7079665769",
+        "addr:district": "Thane",
+        "addr:full": "Jay Jay Shriram, Rajaji Path, Ramnagar,Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "clinic",
+        "name": "Dr Upasani Shriram Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0851062,
+          19.2158426
+        ]
+      },
+      "id": "node/7079665769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7225067119",
+        "addr:district": "Thane",
+        "addr:full": "Thakurwadi, Kalu Nagar, Dombivli West",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "addr:subdistrict": "Kalyan",
+        "amenity": "clinic",
+        "description": "Dispensaries",
+        "health_facility:type": "dispensary",
+        "healthcare": "centre",
+        "name": "BARC CHSS Dispensary, Dombivali, Thakurwadi",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.078455,
+          19.224444
+        ]
+      },
+      "id": "node/7225067119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684014",
+        "addr:district": "Thane",
+        "addr:full": "Vasudev Patil Nagar, Kongaon",
+        "addr:postcode": "421311",
+        "addr:state": "Maharastra",
+        "amenity": "clinic",
+        "name": "Sai Samarth Clinic",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1054387,
+          19.2466283
+        ]
+      },
+      "id": "node/7663684014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684017",
+        "addr:district": "Thane",
+        "addr:full": "103 A, Pooja Towers, Thankar Pada Road, Agra Swanand Nagar, Joshibaug, Agra Road, Thankar Pada, Swanand Nagar, Joshibaug, Kalyan",
+        "addr:postcode": "421301",
+        "addr:state": "Maharastra",
+        "amenity": "clinic",
+        "name": "Wellspring Clinic",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1270225,
+          19.2460413
+        ]
+      },
+      "id": "node/7663684017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9176132987",
+        "addr:city": "Thane-Maharashtra",
+        "addr:postcode": "421201",
+        "addr:street": "Mahatma Gandhi Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "orthopaedics",
+        "level": "5",
+        "name": "Omega Clinic",
+        "website": "https://www.drmanan.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0863693,
+          19.2186595
+        ]
+      },
+      "id": "node/9176132987"
+    }
+  ]
+}

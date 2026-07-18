@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:34:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1330557955",
+        "amenity": "fire_station",
+        "name": "Kalyan Fire Station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.1218946,
+              19.2490331
+            ],
+            [
+              73.1215464,
+              19.2484331
+            ],
+            [
+              73.1220689,
+              19.2483407
+            ],
+            [
+              73.1222797,
+              19.2483525
+            ],
+            [
+              73.122341,
+              19.2485128
+            ],
+            [
+              73.1218946,
+              19.2490331
+            ]
+          ]
+        ]
+      },
+      "id": "way/1330557955"
+    }
+  ]
+}

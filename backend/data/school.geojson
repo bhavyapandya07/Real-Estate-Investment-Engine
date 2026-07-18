@@ -1,0 +1,455 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:32:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/461303416",
+        "amenity": "school",
+        "name": "Mahil Samiti school"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0985639,
+              19.2229664
+            ],
+            [
+              73.0986037,
+              19.2225784
+            ],
+            [
+              73.0987053,
+              19.2225847
+            ],
+            [
+              73.098734,
+              19.222666
+            ],
+            [
+              73.0987428,
+              19.2228141
+            ],
+            [
+              73.0986766,
+              19.2229414
+            ],
+            [
+              73.0985639,
+              19.2229664
+            ]
+          ]
+        ]
+      },
+      "id": "way/461303416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/957445433",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.1166744,
+              19.2066687
+            ],
+            [
+              73.1165108,
+              19.2070385
+            ],
+            [
+              73.1164733,
+              19.2071246
+            ],
+            [
+              73.1164652,
+              19.2072614
+            ],
+            [
+              73.115977,
+              19.2073171
+            ],
+            [
+              73.1159519,
+              19.2070728
+            ],
+            [
+              73.1159127,
+              19.2066915
+            ],
+            [
+              73.1158724,
+              19.2063824
+            ],
+            [
+              73.1158456,
+              19.2062786
+            ],
+            [
+              73.1159636,
+              19.2062533
+            ],
+            [
+              73.1161514,
+              19.2061367
+            ],
+            [
+              73.116256,
+              19.2061975
+            ],
+            [
+              73.1163499,
+              19.2064432
+            ],
+            [
+              73.1164116,
+              19.2065344
+            ],
+            [
+              73.1166744,
+              19.2066687
+            ]
+          ]
+        ]
+      },
+      "id": "way/957445433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1020243075",
+        "amenity": "school",
+        "name": "Dnc Ground"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0878062,
+              19.2093055
+            ],
+            [
+              73.0880773,
+              19.208162
+            ],
+            [
+              73.0887151,
+              19.2082231
+            ],
+            [
+              73.0887244,
+              19.2094626
+            ],
+            [
+              73.0886689,
+              19.2094655
+            ],
+            [
+              73.0882961,
+              19.2094218
+            ],
+            [
+              73.0878062,
+              19.2093055
+            ]
+          ]
+        ]
+      },
+      "id": "way/1020243075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1392319058",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.11234,
+              19.2046423
+            ],
+            [
+              73.1132466,
+              19.2044853
+            ],
+            [
+              73.1133459,
+              19.2049966
+            ],
+            [
+              73.1124393,
+              19.2051536
+            ],
+            [
+              73.11234,
+              19.2046423
+            ]
+          ]
+        ]
+      },
+      "id": "way/1392319058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1392319075",
+        "amenity": "school",
+        "name": "Greens English School",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.1068522,
+              19.2093966
+            ],
+            [
+              73.1078982,
+              19.2104528
+            ],
+            [
+              73.1076112,
+              19.2106985
+            ],
+            [
+              73.1065679,
+              19.2096752
+            ],
+            [
+              73.1068522,
+              19.2093966
+            ]
+          ]
+        ]
+      },
+      "id": "way/1392319075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1199843269",
+        "amenity": "school",
+        "name": "Shantinagar School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.097137,
+          19.209637
+        ]
+      },
+      "id": "node/1199843269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1462083579",
+        "amenity": "school",
+        "name": "Tilak Nagar Vidya Mandir High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0927192,
+          19.2136045
+        ]
+      },
+      "id": "node/1462083579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1707873858",
+        "amenity": "school",
+        "name": "DNC High School Ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0882834,
+          19.2089371
+        ]
+      },
+      "id": "node/1707873858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1712284110",
+        "amenity": "school",
+        "name": "G.R.Patil Vidyalaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0925245,
+          19.1873922
+        ]
+      },
+      "id": "node/1712284110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206292332",
+        "addr:postcode": "421202",
+        "addr:street": "KOPAR ROAD",
+        "amenity": "school",
+        "designation": "SCHOOL",
+        "name": "South Indian School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0840956,
+          19.2172432
+        ]
+      },
+      "id": "node/2206292332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206292871",
+        "addr:postcode": "421202",
+        "amenity": "school",
+        "designation": "SCHOOL",
+        "name": "S.H. JONDHALE SCHOOL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0838933,
+          19.2180685
+        ]
+      },
+      "id": "node/2206292871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9818806583",
+        "amenity": "school",
+        "name": "Swami Vivekananda Vidyamandir",
+        "name:etymology:wikidata": "Q47478",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0939795,
+          19.2187255
+        ]
+      },
+      "id": "node/9818806583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9818827081",
+        "amenity": "school",
+        "name": "Manjunath Vidyalaya",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0965038,
+          19.2152372
+        ]
+      },
+      "id": "node/9818827081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9818835347",
+        "amenity": "school",
+        "name": "S.V.Joshi Highschool",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0932067,
+          19.22211
+        ]
+      },
+      "id": "node/9818835347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868191835",
+        "amenity": "school",
+        "name": "Sister Nivedita English School",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1047798,
+          19.2122395
+        ]
+      },
+      "id": "node/9868191835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868191836",
+        "amenity": "school",
+        "name": "Tilak Nagar Vidya Mandir",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1045035,
+          19.2119775
+        ]
+      },
+      "id": "node/9868191836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12882577901",
+        "addr:street": "Mamata hospital road",
+        "amenity": "school",
+        "name": "Omkar English Medium School - CBSE",
+        "phone": "097029 34444",
+        "website": "https://www.omkarcbse.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1039241,
+          19.2076655
+        ]
+      },
+      "id": "node/12882577901"
+    }
+  ]
+}

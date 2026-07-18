@@ -1,0 +1,127 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:35:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353980262",
+        "addr:city": "Dombivli",
+        "addr:district": "Thane",
+        "addr:postcode": "421202",
+        "addr:street": "Kalu Nagar Rd",
+        "building": "yes",
+        "name": "St. Xaviers English High School",
+        "office": "educational_institution",
+        "opening_hours": "Mo-Fr 08:00-17:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.078802,
+              19.22358
+            ],
+            [
+              73.0788259,
+              19.2234768
+            ],
+            [
+              73.0789712,
+              19.2235068
+            ],
+            [
+              73.0789473,
+              19.2236099
+            ],
+            [
+              73.078802,
+              19.22358
+            ]
+          ]
+        ]
+      },
+      "id": "way/353980262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/981111173",
+        "government": "administrative",
+        "landuse": "commercial",
+        "name": "Kalyan-Dombivli Municipal Corporation",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.1289092,
+              19.2405551
+            ],
+            [
+              73.1286378,
+              19.2409173
+            ],
+            [
+              73.1280205,
+              19.2406564
+            ],
+            [
+              73.1276021,
+              19.2403372
+            ],
+            [
+              73.1277711,
+              19.2402374
+            ],
+            [
+              73.1279611,
+              19.2401844
+            ],
+            [
+              73.128417,
+              19.2402135
+            ],
+            [
+              73.1287373,
+              19.240398
+            ],
+            [
+              73.1289092,
+              19.2405551
+            ]
+          ]
+        ]
+      },
+      "id": "way/981111173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9214376449",
+        "addr:city": "Dombivli West",
+        "addr:housenumber": "4",
+        "addr:postcode": "421202",
+        "addr:street": "Ashwini Niwas,2nd Floor,Mahatma Phule Road",
+        "name": "prosperconsulting.in",
+        "office": "company",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+918169719389",
+        "website": "https://prosperconsulting.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0868239,
+          19.2218243
+        ]
+      },
+      "id": "node/9214376449"
+    }
+  ]
+}

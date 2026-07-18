@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:36:07Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353811933",
+        "addr:city": "Dombivali",
+        "addr:street": "Kalyan - Shil Road",
+        "building": "yes",
+        "name": "Rmall",
+        "operator": "Runwal group",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0885028,
+              19.1831475
+            ],
+            [
+              73.0882414,
+              19.1829313
+            ],
+            [
+              73.0882776,
+              19.1816559
+            ],
+            [
+              73.0893532,
+              19.1818768
+            ],
+            [
+              73.0895838,
+              19.1831274
+            ],
+            [
+              73.0885028,
+              19.1831475
+            ]
+          ]
+        ]
+      },
+      "id": "way/353811933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353815814",
+        "addr:city": "Kalyan",
+        "addr:postcode": "421301",
+        "addr:street": "Agra Rd",
+        "building": "yes",
+        "name": "Sarvoday mall",
+        "name:mr": "सर्वोदय माल",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.1228408,
+              19.2350777
+            ],
+            [
+              73.1219053,
+              19.2346929
+            ],
+            [
+              73.1220043,
+              19.2344783
+            ],
+            [
+              73.1220986,
+              19.2345171
+            ],
+            [
+              73.1221199,
+              19.2344709
+            ],
+            [
+              73.1227562,
+              19.2347327
+            ],
+            [
+              73.1227441,
+              19.2347587
+            ],
+            [
+              73.1229491,
+              19.234843
+            ],
+            [
+              73.1228408,
+              19.2350777
+            ]
+          ]
+        ]
+      },
+      "id": "way/353815814"
+    }
+  ]
+}

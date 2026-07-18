@@ -1,0 +1,108 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:33:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355006858",
+        "amenity": "college",
+        "name": "SK patil junior Collage"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0874819,
+              19.2146043
+            ],
+            [
+              73.087356,
+              19.2144947
+            ],
+            [
+              73.0874924,
+              19.2143551
+            ],
+            [
+              73.0874303,
+              19.214301
+            ],
+            [
+              73.0875975,
+              19.2141298
+            ],
+            [
+              73.0877854,
+              19.2142933
+            ],
+            [
+              73.0874819,
+              19.2146043
+            ]
+          ]
+        ]
+      },
+      "id": "way/355006858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1020245521",
+        "amenity": "college",
+        "name": "S.K Patil Ground"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0874851,
+              19.2140431
+            ],
+            [
+              73.0875452,
+              19.2139762
+            ],
+            [
+              73.0877393,
+              19.2140359
+            ],
+            [
+              73.0877748,
+              19.214065
+            ],
+            [
+              73.087784,
+              19.2141348
+            ],
+            [
+              73.0877239,
+              19.2142192
+            ],
+            [
+              73.0875822,
+              19.214129
+            ],
+            [
+              73.0874713,
+              19.2141202
+            ],
+            [
+              73.0874834,
+              19.2140526
+            ],
+            [
+              73.0874851,
+              19.2140431
+            ]
+          ]
+        ]
+      },
+      "id": "way/1020245521"
+    }
+  ]
+}

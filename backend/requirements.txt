@@ -1,0 +1,7 @@
+fastapi==0.115.8
+uvicorn==0.34.0
+geopandas==1.0.1
+shapely==2.0.7
+sentence-transformers==3.4.1
+faiss-cpu==1.10.0
+pydantic==2.10.6

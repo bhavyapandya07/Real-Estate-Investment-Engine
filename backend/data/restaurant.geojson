@@ -1,0 +1,340 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:36:07Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5289658",
+        "addr:city": "DOMBIVILI",
+        "addr:district": "Thane",
+        "addr:postcode": "421201",
+        "addr:street": "Dr. Rajendra Prasad Road",
+        "amenity": "restaurant",
+        "building": "residential",
+        "cuisine": "indian;dessert;sandwich;kebab;grill;barbecue",
+        "name": "Regency Family Restaurant and Bar",
+        "opening_hours": "11:30-00:00",
+        "phone": "0251 243 0044",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0939297,
+              19.2150501
+            ],
+            [
+              73.0940291,
+              19.2148006
+            ],
+            [
+              73.0944529,
+              19.2149512
+            ],
+            [
+              73.0943559,
+              19.2151947
+            ],
+            [
+              73.0939914,
+              19.2150652
+            ],
+            [
+              73.093989,
+              19.2150712
+            ],
+            [
+              73.0939297,
+              19.2150501
+            ]
+          ],
+          [
+            [
+              73.0940744,
+              19.2149978
+            ],
+            [
+              73.0942851,
+              19.2150727
+            ],
+            [
+              73.0943009,
+              19.2150329
+            ],
+            [
+              73.0940902,
+              19.2149581
+            ],
+            [
+              73.0940744,
+              19.2149978
+            ]
+          ]
+        ]
+      },
+      "id": "relation/5289658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353825895",
+        "addr:city": "Dombivli East, Mumbai",
+        "addr:district": "Thane",
+        "addr:postcode": "421201",
+        "addr:street": "Phadke Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "indian;sandwich;tea",
+        "diet:jain": "yes",
+        "diet:vegetarian": "yes",
+        "name": "New Modern Cafe Pure Veg Restrauant",
+        "name:mr": "न्यू  मॉडर्न कॅफे",
+        "opening_hours": "08:00-23:45",
+        "phone": "+91-08928706704"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0914633,
+              19.2199118
+            ],
+            [
+              73.0914904,
+              19.2198777
+            ],
+            [
+              73.0915073,
+              19.2198897
+            ],
+            [
+              73.0915251,
+              19.2198673
+            ],
+            [
+              73.0915082,
+              19.2198553
+            ],
+            [
+              73.0915382,
+              19.2198176
+            ],
+            [
+              73.0917022,
+              19.2199339
+            ],
+            [
+              73.0916727,
+              19.219971
+            ],
+            [
+              73.0916481,
+              19.2199536
+            ],
+            [
+              73.0916377,
+              19.2199666
+            ],
+            [
+              73.0916559,
+              19.2199795
+            ],
+            [
+              73.0916462,
+              19.2199917
+            ],
+            [
+              73.0916526,
+              19.2199962
+            ],
+            [
+              73.0916273,
+              19.2200281
+            ],
+            [
+              73.0914633,
+              19.2199118
+            ]
+          ]
+        ]
+      },
+      "id": "way/353825895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1251584667",
+        "addr:city": "Dombivli",
+        "addr:district": "Thane",
+        "addr:postcode": "421202",
+        "addr:street": "Pandit Dindayal Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "chicken;burger;pizza;seafood;indian;fish",
+        "name": "New Priti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0824796,
+              19.2223306
+            ],
+            [
+              73.0824909,
+              19.2222623
+            ],
+            [
+              73.082543,
+              19.2222879
+            ],
+            [
+              73.0825294,
+              19.2223456
+            ],
+            [
+              73.0824796,
+              19.2223306
+            ]
+          ]
+        ]
+      },
+      "id": "way/1251584667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1081953918",
+        "amenity": "restaurant",
+        "name": "Port Royal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0884675,
+          19.220231
+        ]
+      },
+      "id": "node/1081953918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1673686530",
+        "amenity": "restaurant",
+        "diet:vegetarian": "only",
+        "name": "Dwarka Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0853724,
+          19.2180402
+        ]
+      },
+      "id": "node/1673686530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1673693322",
+        "amenity": "restaurant",
+        "diet:vegetarian": "only",
+        "name": "Samrat Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0818588,
+          19.2221786
+        ]
+      },
+      "id": "node/1673693322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8814404801",
+        "addr:city": "Dombivili East",
+        "addr:housenumber": "Shop number 1",
+        "addr:postcode": "421201",
+        "addr:street": "Guru Krupa Society, Saraswat Colony, Near Ganesh Mandir, Nehru Road,",
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Om Sai Chinese Corner",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "opening_hours:covid19": "restricted",
+        "phone": "+91 8879465194",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0943804,
+          19.2231878
+        ]
+      },
+      "id": "node/8814404801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9409899050",
+        "amenity": "restaurant",
+        "cuisine": "regional;chicken;indian",
+        "name": "Shubhanand Malvani lajat",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0879655,
+          19.2117342
+        ]
+      },
+      "id": "node/9409899050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13966051233",
+        "amenity": "restaurant",
+        "cuisine": "chinese;indian",
+        "name": "Dragon Spice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0878334,
+          19.2281723
+        ]
+      },
+      "id": "node/13966051233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13970003729",
+        "amenity": "restaurant",
+        "name": "Bunty Bar and Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0875137,
+          19.2271913
+        ]
+      },
+      "id": "node/13970003729"
+    }
+  ]
+}

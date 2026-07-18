@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:35:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206289223",
+        "addr:postcode": "421202",
+        "addr:street": "kopar road",
+        "amenity": "police",
+        "name": "Vishnunagar Police Station",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0867512,
+          19.2192494
+        ]
+      },
+      "id": "node/2206289223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9876652392",
+        "amenity": "police",
+        "name": "Ramnagar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0861813,
+          19.2166065
+        ]
+      },
+      "id": "node/9876652392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9876669070",
+        "amenity": "police",
+        "name": "Vishnu Nagar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0868311,
+          19.219069
+        ]
+      },
+      "id": "node/9876669070"
+    }
+  ]
+}

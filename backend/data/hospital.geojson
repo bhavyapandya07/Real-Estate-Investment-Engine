@@ -1,0 +1,1859 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-12T04:33:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/183156177",
+        "addr:district": "Thane",
+        "addr:full": "2nd Floor, Rohini Appartment, Gopte Road, Dombivli W",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Renuka Hospital and Icu",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0862554,
+              19.2205402
+            ],
+            [
+              73.0863457,
+              19.2204329
+            ],
+            [
+              73.0864839,
+              19.2205365
+            ],
+            [
+              73.0864333,
+              19.2205965
+            ],
+            [
+              73.0864511,
+              19.2206098
+            ],
+            [
+              73.0864114,
+              19.2206571
+            ],
+            [
+              73.0862554,
+              19.2205402
+            ]
+          ]
+        ]
+      },
+      "id": "way/183156177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353996240",
+        "addr:city": "Dombivli East, Mumbai",
+        "addr:housenumber": "103, 1st Floor",
+        "addr:postcode": "421201",
+        "addr:street": "RamJanaki Buliding, Near Shree Ganesh Mandir, Sansathan Mandir Road, Dombivali East",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "orthopaedics",
+        "name": "Ashwamedh Orthopaedic Hospital",
+        "operator": "Novosalus",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0922142,
+              19.2207689
+            ],
+            [
+              73.0921102,
+              19.220677
+            ],
+            [
+              73.0921733,
+              19.2206134
+            ],
+            [
+              73.092222,
+              19.2206564
+            ],
+            [
+              73.0922085,
+              19.22067
+            ],
+            [
+              73.0922347,
+              19.2206932
+            ],
+            [
+              73.0922516,
+              19.2207081
+            ],
+            [
+              73.0922638,
+              19.2207189
+            ],
+            [
+              73.0922142,
+              19.2207689
+            ]
+          ]
+        ]
+      },
+      "id": "way/353996240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/358845091",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sai Jyot hospital",
+        "operator": "Private",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0879977,
+              19.2138696
+            ],
+            [
+              73.0880866,
+              19.2136438
+            ],
+            [
+              73.0882664,
+              19.2137015
+            ],
+            [
+              73.0882342,
+              19.2137898
+            ],
+            [
+              73.0881926,
+              19.21378
+            ],
+            [
+              73.0881349,
+              19.2139129
+            ],
+            [
+              73.0879977,
+              19.2138696
+            ]
+          ]
+        ]
+      },
+      "id": "way/358845091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/758756974",
+        "addr:city": "KALYAN",
+        "addr:district": "Thane",
+        "addr:postcode": "421301",
+        "addr:street": "Parnaka Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;orthopaedics;intensive;clinical_pathology",
+        "name": "APEX HOSPITAL",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.1234825,
+              19.2443831
+            ],
+            [
+              73.1234956,
+              19.244303
+            ],
+            [
+              73.1235996,
+              19.2443181
+            ],
+            [
+              73.123593,
+              19.2443587
+            ],
+            [
+              73.1235869,
+              19.2443959
+            ],
+            [
+              73.1235432,
+              19.2443896
+            ],
+            [
+              73.1235472,
+              19.2443649
+            ],
+            [
+              73.1235311,
+              19.2443626
+            ],
+            [
+              73.1235267,
+              19.2443895
+            ],
+            [
+              73.1234825,
+              19.2443831
+            ]
+          ]
+        ]
+      },
+      "id": "way/758756974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1153427363",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.10594,
+              19.2482844
+            ],
+            [
+              73.1057963,
+              19.2477707
+            ],
+            [
+              73.1061259,
+              19.2476405
+            ],
+            [
+              73.1062772,
+              19.2480637
+            ],
+            [
+              73.10594,
+              19.2482844
+            ]
+          ]
+        ]
+      },
+      "id": "way/1153427363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1241648924",
+        "addr:city": "Dombivali",
+        "addr:district": "Thane",
+        "addr:housenumber": "203",
+        "addr:street": "Chiplunkar Path",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "chiropractic",
+        "name": "VOCARD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0877589,
+              19.2159795
+            ],
+            [
+              73.0876873,
+              19.2159165
+            ],
+            [
+              73.0877068,
+              19.2158612
+            ],
+            [
+              73.0878711,
+              19.2157706
+            ],
+            [
+              73.0881248,
+              19.2159472
+            ],
+            [
+              73.0879784,
+              19.2161591
+            ],
+            [
+              73.0878573,
+              19.2160586
+            ],
+            [
+              73.0877589,
+              19.2159795
+            ]
+          ]
+        ]
+      },
+      "id": "way/1241648924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1712291998",
+        "amenity": "hospital",
+        "name": "Padmashree Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0918952,
+          19.2122524
+        ]
+      },
+      "id": "node/1712291998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827513667",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Chinchansure"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1271408,
+          19.2367995
+        ]
+      },
+      "id": "node/1827513667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7042885999",
+        "addr:district": "Thane",
+        "addr:full": "Devi Bhavan, Bail Bazar, Behind Zojwalla Petrol Pump, Beside Dr Acharya Hospital, Kalyan West",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Meera Hospital-Kalyan",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1267624,
+          19.2357759
+        ]
+      },
+      "id": "node/7042885999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7043001889",
+        "addr:district": "Thane",
+        "addr:full": "Manpada Road, Opposite Mahavir Nagar, Dombivli (East)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "email": "info@shreeashirwadhospital.com",
+        "name": "Shree Ashirwad Hospital, Dombivli",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "https://shreeashirwadhospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0948607,
+          19.2076616
+        ]
+      },
+      "id": "node/7043001889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7043182335",
+        "addr:district": "Thane",
+        "addr:full": "Krishna Smruti,1st Floor,Phadke Road, Opposite Pitre Bldg, Dombivli (E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Anil Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0916561,
+          19.2203737
+        ]
+      },
+      "id": "node/7043182335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7043575871",
+        "addr:district": "Thane",
+        "addr:full": "101-102, Shyam Nivas Netivali, Kalyan Shil Road, Kalyan",
+        "addr:postcode": "421306",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Shubhamkar Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1240582,
+          19.2268522
+        ]
+      },
+      "id": "node/7043575871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7044066531",
+        "addr:district": "Thane",
+        "addr:full": "Shivraj Building, 1st Floor, Near Shivaji Statue, Manpada Road, Dombivli East",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Shri Chaitanya Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08933,
+          19.2163441
+        ]
+      },
+      "id": "node/7044066531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7044793428",
+        "addr:district": "Thane",
+        "addr:full": "Nandivli Panchanand,Near Star Colony,Off Manapada Road",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Pmrs Ace Children's Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.094911,
+          19.2038406
+        ]
+      },
+      "id": "node/7044793428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7044814876",
+        "addr:district": "Thane",
+        "addr:full": "Deena Dayan Road Near Samrat Hotel, Dombivli West",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Mahalaxmi Hospital, Thane",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0818526,
+          19.2219275
+        ]
+      },
+      "id": "node/7044814876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7045516016",
+        "addr:district": "Thane",
+        "addr:full": "No/A/01 On Frist Floor Sanavi Apartment Gupte Road Dombivali W",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Shree Sadguru Krupa Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0848876,
+          19.2219908
+        ]
+      },
+      "id": "node/7045516016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7045681869",
+        "addr:district": "Thane",
+        "addr:full": "Shivraj Ist Floor Near Shivraj Statue, Manpada Road, Dombivali (E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Shri Chaitanya Hospital - Mumbai",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.092894,
+          19.2156856
+        ]
+      },
+      "id": "node/7045681869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7045873132",
+        "addr:district": "Thane",
+        "addr:full": "103, 1st Floor, Swar Ganga, Opposite Oriental Bank Of Commerce,Tilak Road, Krishna Radha Society, Dombivli East",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Karwa Hospital and Iccu",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.092725,
+          19.2163124
+        ]
+      },
+      "id": "node/7045873132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7047805770",
+        "addr:district": "Thane",
+        "addr:full": "Nimal Chayaa, Opposite Agarwal Hall, Manpada Road, Dombivali (E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Suyash Hospital, Dombivali",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0935967,
+          19.2096435
+        ]
+      },
+      "id": "node/7047805770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7047864600",
+        "addr:district": "Thane",
+        "addr:full": "Tai Pingle Chowk, Opposite Sarvesh Hall Dombivali(W)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Hambarde Hospital - Mumbai",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0916467,
+          19.2162884
+        ]
+      },
+      "id": "node/7047864600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7049056633",
+        "addr:district": "Thane",
+        "addr:full": "Opposite D.N.C. Highschool, Nandivli Road,Dombivli (E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Phoenix Hospital, Dombivali",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0889057,
+          19.2091632
+        ]
+      },
+      "id": "node/7049056633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7049071905",
+        "addr:district": "Thane",
+        "addr:full": "2A, 2B Joker Plaza,Bail Bazar,Kalyan",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Sai Sanket Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1257322,
+          19.2382719
+        ]
+      },
+      "id": "node/7049071905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7049745244",
+        "addr:district": "Thane",
+        "addr:full": "Dombivali",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Gurukrupa Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0887875,
+          19.2209397
+        ]
+      },
+      "id": "node/7049745244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7050315932",
+        "addr:district": "Thane",
+        "addr:full": "1st Floor, Sudama Arcade, R P Roadtilak Naagar, Dombivli (E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Sparsh Multispeciality Hospital and I C C U",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0907616,
+          19.2145407
+        ]
+      },
+      "id": "node/7050315932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7050371670",
+        "addr:district": "Thane",
+        "addr:full": "Dombivali",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Spandan Hospital and Iccu",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0865076,
+          19.2217388
+        ]
+      },
+      "id": "node/7050371670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7050601465",
+        "addr:district": "Thane",
+        "addr:full": "Plot P - 72, Milap Nagar, Midc, Dombivli",
+        "addr:postcode": "421203",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Aims (Asian Institute Of Medical Sciences) - Dombivli",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1055593,
+          19.2079959
+        ]
+      },
+      "id": "node/7050601465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7050623214",
+        "addr:district": "Thane",
+        "addr:full": "Samarth Dham Building, Ground Floor, Near Swami Samarth Math, Dombivli(East), Mumbai",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Life Care Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0882376,
+          19.2021727
+        ]
+      },
+      "id": "node/7050623214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7050932257",
+        "addr:district": "Thane",
+        "addr:full": "P-69, Residential Zone, Midc, Dombivali East",
+        "addr:postcode": "421203",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Kamat Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1048238,
+          19.2067807
+        ]
+      },
+      "id": "node/7050932257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051167335",
+        "addr:district": "Thane",
+        "addr:full": "Plot No. 57, Central Railwaymen's Welfare Asscoiation Chs, Kalyan Road, Dombivli (East)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Shivam Hospital, Thane",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.101231,
+          19.2154365
+        ]
+      },
+      "id": "node/7051167335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051345900",
+        "addr:district": "Thane",
+        "addr:full": "No 6, Aakash Arcade, Dr. Deepak Shetty Memorial, Akash Arcade Near Bhanu Sagar Theatre, Kalyan (W)",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Shree Devi Hospital - Kalyan",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1273427,
+          19.2360703
+        ]
+      },
+      "id": "node/7051345900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7052249969",
+        "addr:district": "Thane",
+        "addr:full": "First Floor Commerce Centre, Tandon Road Dombivli - East Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Om Hospital, Thane",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0869629,
+          19.2141209
+        ]
+      },
+      "id": "node/7052249969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7052340509",
+        "addr:district": "Thane",
+        "addr:full": "1st Floor, Central Plaza, N.S.S.Road,Vishnu Nagar, , Near Gom Talkies Above Central Bank Of India, Dombivali (W)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "City Hospital and Polyclinic",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0841909,
+          19.2224878
+        ]
+      },
+      "id": "node/7052340509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7052945124",
+        "addr:district": "Thane",
+        "addr:full": "Gurumilan C H S, Gr Flr , Opp Tilak Nagar Post Office, Tilaknagar Dombivli - East Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Jeevanshree Hospitals",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.094054,
+          19.2150486
+        ]
+      },
+      "id": "node/7052945124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7054175082",
+        "addr:district": "Thane",
+        "addr:full": "Sunder Apartments, 1st Floor ,Rajendra Prasad Road, Ram Nagar ,Dombivali (East)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Ishwar Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0873646,
+          19.2136451
+        ]
+      },
+      "id": "node/7054175082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7054452022",
+        "addr:district": "Thane",
+        "addr:full": "Adheshwar Park, Bail Bazaar, Kalyan Shill Road, Kalyan West",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "email": "kln.customercare@fortishealthcare.com",
+        "name": "Fortis Hospitals Ltd Kalyan",
+        "source": "OpenGovernmentData",
+        "website": "https://www.fortismumbai.com/hospital-kalyan/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1234671,
+          19.2374533
+        ]
+      },
+      "id": "node/7054452022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7055116185",
+        "addr:district": "Thane",
+        "addr:full": "Gaondevi Shopping Centre Plot No -X-25, 1st Floor, M I D C Phase Ii, Dombivli - East Dombivli",
+        "addr:postcode": "421203",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Rajanigandha Hospital and Iccu",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1031413,
+          19.2078097
+        ]
+      },
+      "id": "node/7055116185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7055144223",
+        "addr:district": "Thane",
+        "addr:full": "Mahatma Gandhi Road, Everest Shopping Centre, 2nd Floor,Opp Railway Station, Dombivli West",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Dr.Harne Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0863862,
+          19.219586
+        ]
+      },
+      "id": "node/7055144223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064973817",
+        "addr:district": "Thane",
+        "addr:full": "B-2,Kasturi Plaza, Manpada Road, Dombivli (E), Mumbai",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Gokhale Orthopaedic Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.090018,
+          19.2155298
+        ]
+      },
+      "id": "node/7064973817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7065573005",
+        "addr:district": "Thane",
+        "addr:full": "Road Number 2, Pendse Nagar, Dombivali(E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Kumars Maternity and Surgical Nursing Home",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0905692,
+          19.2160186
+        ]
+      },
+      "id": "node/7065573005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7066695553",
+        "addr:district": "Thane",
+        "addr:full": "1st Floor, Ashitosh Appts, Kalyan Road, Tilak Chowk, Gopal Nagar, Near Lokmanya Tilak Statue, Dombivli East, Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Kopardes Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0951665,
+          19.2153981
+        ]
+      },
+      "id": "node/7066695553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7066954921",
+        "addr:district": "Thane",
+        "addr:full": "Anand Sudha Bhavan,Gopal Chowk,Chakki Maka",
+        "addr:postcode": "421306",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Kalyan Metro Multi Speciality Hospital Pvt. Ltd",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1247076,
+          19.2241613
+        ]
+      },
+      "id": "node/7066954921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7067113552",
+        "addr:district": "Thane",
+        "addr:full": "Balkrishna Apartment, D Wing, 1st Floor, Ghanashyam Gupte Road, Dombivli West",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Life Line Hospital and Icu",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08634,
+          19.2197582
+        ]
+      },
+      "id": "node/7067113552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068096867",
+        "addr:district": "Thane",
+        "addr:full": "Usha Complex, 2nd Floor, Opposite Bhanu Sagar Cinema, Valipeer Road, Kalyan (W)",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Dr Thakurs Ent Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.127882,
+          19.2364758
+        ]
+      },
+      "id": "node/7068096867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068429401",
+        "addr:district": "Thane",
+        "addr:full": "Suchit Square, Dr.R P Road, Ram Nagar, Dombivli East, Dombivli",
+        "addr:postcode": "421203",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Sai Jyot Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08818,
+          19.2137683
+        ]
+      },
+      "id": "node/7068429401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7069813995",
+        "addr:district": "Thane",
+        "addr:full": "135/136, Kasturi Plaza, B-Wing, Manpada Road , Dombivli East",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Dandekar Hospital and Dyalysis Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0906235,
+          19.2147231
+        ]
+      },
+      "id": "node/7069813995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7072544658",
+        "addr:district": "Thane",
+        "addr:full": "2-3, Balkrishna Apartment, Opposite Tilak Nagar Post Office, Rajendra Prasad Road, Dombivili East",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Nulife Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0933164,
+          19.2147611
+        ]
+      },
+      "id": "node/7072544658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7073537695",
+        "addr:district": "Thane",
+        "addr:full": "Shripat Smruti Building, 1st Floor, Star Colony, Manpadha Road,Opposite Bank Of Baroda",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Aarogyam Hospital, Thane",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0957344,
+          19.2037444
+        ]
+      },
+      "id": "node/7073537695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7073537754",
+        "addr:district": "Thane",
+        "addr:full": "Manpada Road Mahaveer Nagar Corner Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Icon Hospital, Thane",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0941908,
+          19.2078617
+        ]
+      },
+      "id": "node/7073537754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7075916832",
+        "addr:district": "Thane",
+        "addr:full": "Hajimalang Road, Near Tyre Company , Chakkinaka , Kalyan (E)",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Jeevanjyoti Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1272584,
+          19.2204269
+        ]
+      },
+      "id": "node/7075916832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7076267210",
+        "addr:district": "Thane",
+        "addr:full": "P-43, Near New Power House Miidc Phase-Ii Dombivili(W)",
+        "addr:postcode": "421204",
+        "addr:state": "Maharashtra",
+        "addr:street": "Mamata Hospital road",
+        "amenity": "hospital",
+        "name": "SRV Hospitals - Dombivali (Formerly Mamata Hospital)",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1043121,
+          19.2073183
+        ]
+      },
+      "id": "node/7076267210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7076447154",
+        "addr:district": "Thane",
+        "addr:full": "82/211,Ramchandra Nagar, Dombivli",
+        "addr:postcode": "421204",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Hardikar Hospital and Polyclinic",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0911063,
+          19.2060576
+        ]
+      },
+      "id": "node/7076447154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7079392137",
+        "addr:city": "Dombivli",
+        "addr:district": "Thane",
+        "addr:full": "401 Commerce Centre Tandon Road Ramnagar Dombivli (E)",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "addr:street": "Tondon Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;biology",
+        "name": "OM Hospital",
+        "source": "OpenGovernmentData;local knowledge",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0869187,
+          19.2140741
+        ]
+      },
+      "id": "node/7079392137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7082733153",
+        "addr:district": "Thane",
+        "addr:full": "Ground Floor, Hiral Apartments, Manpada Road, Opposite Pandurang Vidyalya, Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Kaveri Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0936141,
+          19.2101704
+        ]
+      },
+      "id": "node/7082733153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7082738929",
+        "addr:district": "Thane",
+        "addr:full": "Laxmi Darshan Chs, Off Manpada Road ,Shrikhande Wadi,Opposite Akshay Hsp,Dombivli East",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Jeevandeep Hospital and Critical Care Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0918613,
+          19.2124879
+        ]
+      },
+      "id": "node/7082738929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7086150014",
+        "addr:district": "Thane",
+        "addr:full": "1st Floor, Klassic Apartment, Kopar Road, Dombivili West, Mumbai",
+        "addr:postcode": "421202",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Sai Shraddha Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0801447,
+          19.2150657
+        ]
+      },
+      "id": "node/7086150014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7086629018",
+        "addr:district": "Thane",
+        "addr:full": "Shiv Tirtha Apartment Parnaka Kalyan",
+        "addr:postcode": "421301",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Apex Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1235275,
+          19.2443408
+        ]
+      },
+      "id": "node/7086629018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7087131474",
+        "addr:district": "Thane",
+        "addr:full": "Dombivali",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Netra Sanjeevani Eye Center",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.088192,
+          19.2175775
+        ]
+      },
+      "id": "node/7087131474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684011",
+        "addr:district": "Thane",
+        "addr:full": "Tilak Road, Krishna Radha Society, Dombivli East, Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Jyotirmay Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.091979,
+          19.216336
+        ]
+      },
+      "id": "node/7663684011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684020",
+        "addr:district": "Thane",
+        "addr:full": "Pandurang Wadi 1st Lane, New Geeta Co-Operative Housing Society, Anand Nagar, Dombivli East",
+        "addr:postcode": "421201",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Anish Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.092665,
+          19.210349
+        ]
+      },
+      "id": "node/7663684020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684022",
+        "addr:district": "Thane",
+        "addr:full": "Manpada Road, Raghuveer Nagar, Dattanagar, Dombivli East, Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Navjeevan Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0916135,
+          19.2130359
+        ]
+      },
+      "id": "node/7663684022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684026",
+        "addr:district": "Thane",
+        "addr:full": "Vedant Chamber, Near Durgadi Bridge, Bhiwandi - Kalyan Road, Jambhulwadi, Kon",
+        "addr:postcode": "421302",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Ved Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.109067,
+          19.246767
+        ]
+      },
+      "id": "node/7663684026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684032",
+        "addr:district": "Thane",
+        "addr:full": "Gaurav Prasad Building, Paranaka, Opposite Gajanan Maharaj Mandir, Kalyan",
+        "addr:postcode": "421301",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Phadke Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1225611,
+          19.2441572
+        ]
+      },
+      "id": "node/7663684032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684035",
+        "addr:district": "Thane",
+        "addr:full": "Tapovan Building, Dr. Ambedkar Road, Opposite Pathare Nursery, Kalyan West, Thane",
+        "addr:postcode": "421301",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Om Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.126356,
+          19.240333
+        ]
+      },
+      "id": "node/7663684035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684041",
+        "addr:district": "Thane",
+        "addr:full": "Vasudev Patil Nagar, Kongaon",
+        "addr:postcode": "421311",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Goverment Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10563,
+          19.246857
+        ]
+      },
+      "id": "node/7663684041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684045",
+        "addr:district": "Thane",
+        "addr:full": "Ghanashyam Gupte Road, Near Gopi Mall, Vishnu Nagar, Dombivli",
+        "addr:postcode": "421202",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Galaxy Criticare Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0844634,
+          19.2228121
+        ]
+      },
+      "id": "node/7663684045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684050",
+        "addr:district": "Thane",
+        "addr:full": "Kopar Cross Road, Near Amba Bhavani Temple, RBI Colony, Dombivli West",
+        "addr:postcode": "421202",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Venus Hospital Multispeciality",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.078867,
+          19.214393
+        ]
+      },
+      "id": "node/7663684050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684051",
+        "addr:district": "Thane",
+        "addr:full": "Om Supreme Chamber, Near Dmart, Station Road, Bhoiwada, Kalyan",
+        "addr:postcode": "421301",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "AM PM 24 Hrs Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.126008,
+          19.237384
+        ]
+      },
+      "id": "node/7663684051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684056",
+        "addr:district": "Thane",
+        "addr:full": "Chiplunkar Path, Behind Chaitanya Hospital, Ramnagar, Dombivli East",
+        "addr:postcode": "421201",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Dr. Oak Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0891771,
+          19.2162123
+        ]
+      },
+      "id": "node/7663684056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684058",
+        "addr:district": "Thane",
+        "addr:full": "L B Yende Compound, Manpada Road, Dombivli East, Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Platinum Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0949273,
+          19.2028174
+        ]
+      },
+      "id": "node/7663684058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684059",
+        "addr:district": "Thane",
+        "addr:full": "Kalyan - Shilphata Road, Sonar Pada, Dombivli East, Dombivli",
+        "addr:postcode": "421203",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Neptune Superspeciality Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1032787,
+          19.2009113
+        ]
+      },
+      "id": "node/7663684059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684069",
+        "addr:district": "Thane",
+        "addr:full": "Chiplunkar Path, Near Ganesh Cool Drinks, Manpada, Ramnagar, Dombivl",
+        "addr:postcode": "421201",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Anupam Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0893366,
+          19.2160089
+        ]
+      },
+      "id": "node/7663684069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684070",
+        "addr:district": "Thane",
+        "addr:full": "Manpada Road, Eknath Mhatre Nagar, Anand Nagar, Dombivli East, Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Orion Multispeciality Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0936948,
+          19.2094685
+        ]
+      },
+      "id": "node/7663684070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663684071",
+        "addr:district": "Thane",
+        "addr:full": "Giridhar Nagar, Kon, Kongaon",
+        "addr:postcode": "421302",
+        "addr:state": "Maharastra",
+        "amenity": "hospital",
+        "name": "Puja Nursing Home",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1068571,
+          19.2479495
+        ]
+      },
+      "id": "node/7663684071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8817021052",
+        "addr:district": "Thane",
+        "addr:full": "Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Optilife Multispeciality Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0953991,
+          19.2072512
+        ]
+      },
+      "id": "node/8817021052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8817164164",
+        "addr:district": "Thane",
+        "addr:full": "Dombivli",
+        "addr:postcode": "421201",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Noble Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.088247,
+          19.2174927
+        ]
+      },
+      "id": "node/8817164164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8817169582",
+        "addr:district": "Thane",
+        "addr:full": "Kalyan",
+        "addr:postcode": "421306",
+        "addr:state": "Maharashtra",
+        "amenity": "hospital",
+        "name": "Star city Multispeciality Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1259951,
+          19.2246488
+        ]
+      },
+      "id": "node/8817169582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10172728624",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "om hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1263284,
+          19.2404905
+        ]
+      },
+      "id": "node/10172728624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657792006",
+        "addr:city": "Dombivli East, Mumbai",
+        "addr:housenumber": "103, 1st Floor RamJanaki Buliding",
+        "addr:postcode": "421201",
+        "addr:street": "Near Shree Ganesh Mandir, Sansathan Mandir Road, Dombivali East",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "orthopaedics",
+        "name": "Ashwamedh Orthopaedic Hospital.",
+        "operator": "Novosalus",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0920977,
+          19.2207454
+        ]
+      },
+      "id": "node/10657792006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11543550793",
+        "addr:city": "dombivli",
+        "addr:district": "thane",
+        "addr:housenumber": "204",
+        "addr:postcode": "421203",
+        "addr:street": "Kalyan",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentist",
+        "name": "ayodhya",
+        "operator": "asmi abdulla",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1063315,
+          19.2138063
+        ]
+      },
+      "id": "node/11543550793"
+    }
+  ]
+}
