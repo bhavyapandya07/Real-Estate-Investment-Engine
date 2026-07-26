@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Layers, FileText, Info } from 'lucide-react';
 
 // ⚠️ REPLACE THIS WITH YOUR ACTUAL RENDER URL! (Make sure there is NO trailing slash at the end)
-const API_BASE_URL = "https://your-app-name.onrender.com";
+const API_BASE_URL = "https://urbionic-api.onrender.com";
 
 // --- Types & Configs ---
 interface Distances {
