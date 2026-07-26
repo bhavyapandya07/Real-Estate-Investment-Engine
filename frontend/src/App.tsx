@@ -1,5 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Layers, MapPin, CheckCircle2, TrendingUp, AlertTriangle, FileText, Info } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Layers, FileText, Info } from 'lucide-react';
+
+// ⚠️ REPLACE THIS WITH YOUR ACTUAL RENDER URL! (Make sure there is NO trailing slash at the end)
+const API_BASE_URL = "https://your-app-name.onrender.com";
 
 // --- Types & Configs ---
 interface Distances {
@@ -60,7 +63,7 @@ export default function App() {
   const layersRef = useRef<Record<LayerKey | 'marker', any>>({ ...initialGeoDataState, marker: null });
   const routesRef = useRef<Record<LayerKey, any>>(initialGeoDataState);
 
-  const generateInsights = (distances: Distances, score: number) => {
+  const generateInsights = (distances: Distances) => {
     const pros: string[] = [];
     const cons: string[] = [];
 
@@ -83,7 +86,6 @@ export default function App() {
   };
 
   useEffect(() => {
-    // Inject Custom Micro-Animation CSS for routing lines
     if (!document.getElementById('routing-styles')) {
       const style = document.createElement('style');
       style.id = 'routing-styles';
@@ -157,7 +159,6 @@ export default function App() {
 
       if (layersRef.current.marker) map.removeLayer(layersRef.current.marker);
 
-      // CRITICAL FIX: Clear old routing lines AND reset scoreData simultaneously to prevent race condition
       (Object.keys(routesRef.current) as LayerKey[]).forEach(key => {
         if (routesRef.current[key]) {
           map.removeLayer(routesRef.current[key]);
@@ -176,7 +177,7 @@ export default function App() {
       setLoading(true);
 
       try {
-        const res = await fetch('http://localhost:8000/api/calculate-score', {
+        const res = await fetch(`${API_BASE_URL}/api/calculate-score`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ lat: lat, lng: lng })
@@ -187,7 +188,7 @@ export default function App() {
         if (responseJson.status === "success") {
           const data: ScoreData = responseJson.data;
           setScoreData(data);
-          generateInsights(data.distances_in_meters, data.final_score);
+          generateInsights(data.distances_in_meters);
         }
       } catch (error) {
         console.warn("Backend not detected.", error);
@@ -197,7 +198,6 @@ export default function App() {
     });
   };
 
-  // --- Map GeoJSON Layers ---
   useEffect(() => {
     if (!mapInstance.current) return;
     const L = (window as any).L;
@@ -205,7 +205,6 @@ export default function App() {
     (Object.keys(LAYER_CONFIGS) as LayerKey[]).forEach((layerKey) => {
       const config = LAYER_CONFIGS[layerKey];
 
-      // 1. Handle Vector Data Points
       if (activeLayers[layerKey] && geoData[layerKey] && !layersRef.current[layerKey]) {
         layersRef.current[layerKey] = L.geoJSON(geoData[layerKey], {
           style: { color: config.color, weight: 2, fillColor: config.fill, fillOpacity: 0.4 },
@@ -233,7 +232,6 @@ export default function App() {
         layersRef.current[layerKey] = null;
       }
 
-      // 2. Handle OSRM Dijkstra Routing Lines
       if (activeLayers[layerKey] && scoreData && position && !routesRef.current[layerKey]) {
         const targetCoord = scoreData.nearest_points[layerKey];
         if (targetCoord) {
@@ -242,11 +240,9 @@ export default function App() {
           const endLng = targetCoord[1];
           const endLat = targetCoord[0];
 
-          // Call OSRM public API for true road network routing
           fetch(`https://router.project-osrm.org/route/v1/driving/${startLng},${startLat};${endLng},${endLat}?overview=full&geometries=geojson`)
             .then(res => res.json())
             .then(data => {
-              // Ensure we haven't clicked a new point while fetching
               if (data.routes && data.routes.length > 0 && !routesRef.current[layerKey]) {
                 const route = data.routes[0];
 
@@ -279,7 +275,7 @@ export default function App() {
 
     if (isActivating && !geoData[layer]) {
       try {
-        const res = await fetch(`http://localhost:8000/data/${layer}.geojson`);
+        const res = await fetch(`${API_BASE_URL}/data/${layer}.geojson`);
         if (!res.ok) throw new Error("File not found");
         const data = await res.json();
         setGeoData(prev => ({ ...prev, [layer]: data }));
