@@ -1,18 +1,18 @@
 # 🏙️ UrbaNext - AI-Powered Urban Land Investment Engine
 
-## 📖 Overview
+## Overview
 UrbaNext is an interactive, AI-driven map application designed to evaluate the investment viability of urban land plots. Currently focused on the Kalyan-Dombivli urban corridor, the system replaces subjective real estate pricing models with deterministic mathematical spatial decay algorithms.
 
 Users can click anywhere on the map to instantly calculate the exact road-network distance to 13 different types of crucial infrastructure (hospitals, highways, schools, etc.). The system calculates a dynamic "Investment Score" (0-100) and draws the exact driving routes on the map using real road networks.
 
-## ✨ Key Features
+## Key Features
 - **True Roadway Routing**: Integrates with the Open Source Routing Machine (OSRM) to calculate true shortest-path road network distances via Dijkstra's Algorithm, bypassing misleading straight-line (Haversine) calculations.
 - **Exponential Spatial Scoring**: Calculates infrastructure value using a non-linear exponential distance decay function.
 - **Procedural Insights (XAI)**: Generates human-readable "Pros" and "Cons" based on a deterministic logic tree to explain the generated score.
 - **Zero-Cost Architecture**: Built entirely on open-source technologies and free-tier APIs (OSM, OSRM).
 - **Future-Ready (RAG)**: Backend is structured to support a local FAISS + HuggingFace Retrieval-Augmented Generation pipeline to query municipal zoning policies offline.
 
-## 🧮 The Scoring Math (Exponential Decay)
+## The Scoring Math (Exponential Decay)
 A simple linear score deduction is highly inaccurate for urban planning. To replicate real-world utility, the backend uses an **Exponential Decay Function**:
 
 $$Score = \sum (W \times e^{-k \times distance})$$
@@ -23,7 +23,7 @@ $$Score = \sum (W \times e^{-k \times distance})$$
 
 **Note:** A steep exponential penalty is applied if a plot is within 150 meters of a water vector to account for flood risk.
 
-## 🛠️ Technology Stack
+## Technology Stack
 **Frontend (Client):**
 - React.js (TypeScript, Vite)
 - Leaflet.js (Mapping Engine)
@@ -61,7 +61,7 @@ The visual interface for the user, rendering maps, UI, and data visualizations.
 - **`tsconfig.*.json`**: TypeScript configurations for rigorous type checking across the frontend.
 - **`/public` & `/src/assets`**: Static assets like icons and images used in the frontend.
 
-## 🚀 Getting Started (Local Setup)
+## Getting Started (Local Setup)
 
 To run the full stack on a local machine, you will need to start both the backend and frontend servers simultaneously in two separate terminals.
 
