@@ -1,4 +1,4 @@
-# UrbaNext - AI-Powered Urban Land Investment Engine
+# 🏙️ UrbaNext - AI-Powered Urban Land Investment Engine
 
 ## Overview
 UrbaNext is an interactive, AI-driven map application designed to evaluate the investment viability of urban land plots. Currently focused on the Kalyan-Dombivli urban corridor, the system replaces subjective real estate pricing models with deterministic mathematical spatial decay algorithms.
