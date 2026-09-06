@@ -1,3 +1,6 @@
+<img width="800" height="378" alt="1787983615293" src="https://github.com/user-attachments/assets/a561310a-7adc-4899-8469-365ee0112a54" />
+Vercel takes 2mins to load data so have patient while looking at the project maybe read the readme.md till then!
+
 # 🗺️ Real Estate Investment Engine — Geospatial AI for Property Investment Analysis
 
 ## Overview
