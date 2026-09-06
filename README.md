@@ -1,4 +1,4 @@
-# 🏙️ UrbaNext - AI-Powered Urban Land Investment Engine
+# 🗺️ Real Estate Investment Engine — Geospatial AI for Property Investment Analysis
 
 ## Overview
 UrbaNext is an interactive, AI-driven map application designed to evaluate the investment viability of urban land plots. Currently focused on the Kalyan-Dombivli urban corridor, the system replaces subjective real estate pricing models with deterministic mathematical spatial decay algorithms.
@@ -29,6 +29,7 @@ $$Score = \sum (W \times e^{-k \times distance})$$
 - Leaflet.js (Mapping Engine)
 - TailwindCSS (Glassmorphic UI)
 - Recharts (Data Visualization)
+- GEOJson Data scrping from https://overpass-turbo.eu/
 
 **Backend (Spatial Analytics API):**
 - FastAPI (Uvicorn ASGI)
